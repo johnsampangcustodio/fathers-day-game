@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Father's Day</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Scene One: Main Menu -->
+  <div id="scene-one" class="scene">
+    <h1 class="title">scuba stream</h1>
+    <div class="menu-buttons">
+      <button id="play-button" class="main-btn">PLAY</button>
+      <button id="extra-button" class="main-btn">EXTRA</button>
+    </div>
+  </div>
+
+  <!-- Scene Two: Gameplay -->
+  <div id="scene-two" class="scene">
+    <div id="game-container">
+      <canvas id="game-canvas" width="400" height="600"></canvas>
+      <div id="score-display">Score: 0</div>
+    </div>
+    <div id="mobile-controls">
+        <button class="control-btn" id="left-btn">◀</button>
+        <button class="control-btn" id="right-btn">▶</button>
+      </div>
+      
+  </div>
+  
+  
+  
+
+  <!-- Scene Three: Game Over -->
+  <div id="scene-three" class="scene">
+    <h2 class="game-over-title">Game Over</h2>
+    <p class="message">love you tatay!</p>
+    <p id="final-score" class="score">Score: 0</p>
+    <div class="game-over-buttons">
+      <button id="replay-button" class="main-btn">REPLAY</button>
+      <button id="return-button-1" class="main-btn">RETURN</button>
+    </div>
+  </div>
+
+  <!-- Scene Four: Note -->
+    <div id="scene-four" class="scene">
+    <div class="note-card">
+      <p id="note-text" class="note-text">Happy Father’s Day Tatay!
+
+        Thank you for always being a kind and patient father. I am so grateful to have you as my dad, and I would not even want to imagine living with a different Tatay. No matter the situation, you seem to always keep on breathing and dodging the fishes. I love you very much, and am so grateful for these last 18 years. I’m so excited for the next 18.
+        
+        Love, 
+        
+        Phillip</p>
+      <button id="return-button-2" class="main-btn">RETURN</button>
+    </div>
+     </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
